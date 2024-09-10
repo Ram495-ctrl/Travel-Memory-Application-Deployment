@@ -2,10 +2,13 @@
 .env file to work with the backend after creating a database in mongodb:
 
 MONGO_URI='ENTER_YOUR_URL'
+
 PORT=3001
+
 Add this data into DB, Data format to be added:
 
 {
+
     "tripName": "Incredible India",
     "startDateOfJourney": "19-03-2022",
     "endDateOfJourney": "27-03-2022",
@@ -18,8 +21,11 @@ Add this data into DB, Data format to be added:
     "shortDescription":"India is a wonderful country with rich culture and good people.",
     "featured": true
 }
+
 From Backend application confoguration see the readme.md page in backend-Deployement-notes
+
 From frontend application confoguration see the readme.md page in frontend-Deployement-notes
+
 Task 4: Scaling the Application with Load Balancer:
 
 • Launch Additional EC2 Instances: Create multiple EC2 instances running both the frontend and backend of the TravelMemory application.
