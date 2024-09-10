@@ -21,10 +21,6 @@ Add this data into DB, Data format to be added:
     "shortDescription":"test"
 }
 
-From Backend application confoguration see the readme.md page in backend-Deployement-notes
-
-From frontend application confoguration see the readme.md page in frontend-Deployement-notes
-
 Task 4: Scaling the Application with Load Balancer:
 
 • Launch Additional EC2 Instances: Create multiple EC2 instances running both the frontend and backend of the TravelMemory application.
